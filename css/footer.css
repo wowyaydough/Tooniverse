@@ -1,0 +1,124 @@
+section#footer {
+
+
+  overflow: hidden;
+}
+section#footer>.wrap {
+  width: 1920px;
+  max-width: 1920px;
+}
+section#footer .upper{
+  background-color: #06ace9;
+  padding-bottom: 30px;
+  padding-top: 23px;
+}
+
+section#footer a{
+  color:white;
+}
+section#footer .top{
+  align-items: center;
+}
+section#footer .wrap .top ul.fnb {
+
+}
+section#footer .wrap .top ul.fnb > li {
+  padding-right: 20px;
+}
+section#footer .wrap .top ul.fnb > li a {
+
+}
+section#footer .wrap .top span {
+
+}
+section#footer .wrap .top span select {
+  background-color: #1fb5eb;
+  color: white;
+  border: 1px solid transparent;
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 13px;
+}
+section#footer .wrap .top span select option {
+
+}
+section#footer .wrap .top span select option a {
+
+}
+
+
+section#footer .middle{
+  background-image: url(../img/footer.png);
+  background-color: #06ace9;
+  height: 40vh;
+}
+
+section#footer .bottom{
+  
+}
+
+section#footer .wrap .bottom ul.address {
+  padding-top: 43px;
+}
+section#footer .wrap .bottom ul.address > li {
+
+}
+section#footer .wrap .bottom ul.address li:first-child a.font0 {
+  background-image: url(../img/logo3.png);
+  display: block;
+  width: 280px;
+  height: 64px;
+  background-repeat: no-repeat;
+}
+
+section#footer .address li address{
+color:#99daf2;
+line-height: 26px;
+font-size: 13px;
+}
+
+section#footer .address li address em{
+  color: white;
+}
+
+section#footer .wrap .bottom ul.sns {
+
+}
+section#footer .wrap .bottom ul.sns > li {
+  padding-right: 12px;
+}
+
+section#footer .ground p {
+  color: white;
+}
+section#footer .ground p em{
+  color: white;
+}
+
+section#footer .sns{
+
+}
+
+section#footer .sns li a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  background-color: #12aae1;
+  border-radius: 50%;
+}
+
+section#footer .sns li:nth-child(1) a {
+  background-image: url(../img/insta.svg);
+}
+section#footer .sns li:nth-child(2) a {
+  background-image: url(../img/face.svg);
+}
+section#footer .sns li:nth-child(3) a {
+  background-image: url(../img/you.svg);
+}
+section#footer .sns li:nth-child(4) a {
+  background-image: url(../img/kakao.svg);
+}
+section#footer .sns li:not(:last-child) a {
+  background-size: 100%;
+}

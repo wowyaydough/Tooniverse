@@ -1,0 +1,54 @@
+section#new {
+  background-image: url(../img/bg.png);
+  height: 850px;
+  overflow: hidden;
+}
+section#new .wrap {
+  
+}
+section#new .wrap h2 {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+section#new .wrap ul {
+  
+}
+section#new .wrap ul li {
+  margin-right:40px;
+  transition: 0.5s;
+}
+
+section#new .wrap ul li::before{
+  content:"";
+  display: block;
+  width: 312px;
+  height: 449px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+section#new .wrap ul li:nth-child(1)::before{
+  background-image: url(../img/bottom1.jpg);
+}
+section#new .wrap ul li:nth-child(2)::before{
+  background-image: url(../img/bottom2.jpg);
+}
+section#new .wrap ul li a {
+  
+}
+section#new .wrap ul li a h3 {
+  
+  transition: 0.5s;
+}
+section#new .wrap ul li a p.playat {
+  line-height: 40px;
+  margin-bottom: 15px;
+  transition: 0.5s;
+}
+section#new .wrap ul li a p.sort {
+  
+  border-radius: 30px;
+  border: 1px solid #cee1ea;
+  position: absolute;
+  padding: 9px 16px;
+  transition: 0.5s;
+}

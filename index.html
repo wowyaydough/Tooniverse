@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPF7_Tooniverse</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <!-- //구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- 구글폰트// -->
+    <!-- 프리텐다드 -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <!--  -->
+    <!-- https://ionic.io/ionicons/v1 -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+    <!--  -->
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- 반응형 -->
+    <link rel="stylesheet" href="css/responce.css">
+    <link rel="stylesheet" href="css/font_responce.css">
+     <!-- java -->
+     <script src="JS/jquery-3.7.1.min.js"></script>
+     <script type="text/javascript">
+        $(document).ready(
+            function(){
+               // 헤더에 클래스를 붙이시오(fixed)
+               //$().addClass();
+               //$("").addClass();
+               //$("header").addClass("fixed");
+               $("header").addClass("fixed");
+               $("header h1").click(
+                function(){
+                }
+               );
+    
+               //대메뉴에 클래스를 붙이시오(opacity0)
+              // $("ul.gnb").addClass("opacity0");
+    
+               
+               $("header .wrap div.right>a.ham").click(
+                function(){
+                    //$("ul.gnb").addClass("opacity1");
+                    $("ul.gnb").toggleClass("opacity1");
+                    // 햄버거에 클래스를 붙여라 x
+                    //$("header .wrap div.right>a.ham").addClass("x")
+                    $("header .wrap div.right>a.ham").toggleClass("x")
+                    return false;
+                }
+               );
+            }
+        );
+    </script>
+
+</head>
+<body>
+<!-- 헤더 -->
+<section id="header">
+    <div class="wrap flex between">
+        <a href="">logo</a>
+        <div class="right wrap flex column">
+            <ul class="top flex">
+                <li><a href="">로그인</a></li>
+                <li><a href="">회원가입</a></li>
+            </ul>
+            <ul class="bottom flex">
+                <li><a href="">About Tooniverse</a></li>
+                <li><a href="">편성표</a></li>
+                <li><a href="">프로그램</a></li>
+                <li><a href="">이벤트 당첨 발표</a></li>
+                <li><a href="">공지사항</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- 타이틀 -->
+<section id="title">
+    <div>
+      <a>
+
+      </a>  
+    </div>
+</section>
+
+<!-- 메인 -->
+<section id="channel">
+    <div class="wrap">
+        <hgroup>
+            <h2 class="font18">오늘 뭐보지?</h2>
+            <h3 class="font38">투니버스 NOW</h3>
+        </hgroup>
+        <div class="grid">
+            <a class="logo" href=""></a>
+            <ul>            
+                <li>
+                    <a href="">
+                        <span class="flex">
+                            <p class="time font22">12:00 -<span class="block"></span>13:00 
+                            </p>
+                            <span>
+                                <h5 class="title font18">
+                                    신비아파트 고스트볼 더블X : 6
+                                    <span class="block"></span>
+                                </h5>
+                                    개의 예언
+                                <h6 class="detail font14">
+                                    8화:다시 시작된 예언,땅 속의 붉은 눈
+                                </h6>
+                            </span>
+                            <p class="replay font12">
+                                재
+                            </p>
+                            <p class="live">Live Now</p>
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <span class="flex">
+                            <p class="time font22">13:00 
+                            </p>
+                            <span>
+                                <h5 class="title font18">
+                                    뚜식이2
+                                </h5>
+                                <h6 class="detail font14">9화: 친척 누나 외</h6>
+                            </span>
+                            <p class="replay font12">재</p>
+                        </span>
+                    </a>
+                </li>           
+                <li>
+                    <a href="">
+                        <span class="flex font22">
+                            <p class="time">14:00
+                            </p>
+                            <span>
+                                <h5 class="title font18">
+                                    뚜식이
+                                <h6 class="detail font14">제1화:인기투표 외</h6>
+                            </span>
+                            <p class="replay font12">재</p>
+                        </span>
+                    </a>
+                </li>           
+                <li>
+                    <a href="">
+                        <span class="flex">
+                            <p class="time font22">15:00 
+                            </p>
+                            <span>
+                                <h5 class="title font18">
+                                    사샤&마일로
+                                <h6 class="detail font14">9화:충동적으로,계획적으로</h6>
+                            </span>
+                            <p class="replay font12">재</p>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- 뉴 -->
+<section id="new">
+    <div class="wrap">
+        <h2 class="font38">투니버스가 준비한 1월 신작</h2>
+        <ul class="flex">
+            <li>
+                <a href="">
+                    <h3 class="font20">마카앤로니3</h3>
+                    <p class="playat font16 color1">[화] 오후 06:00 방송</p>
+                    <p class="sort font13 color2">애니메이션</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h3 class="font20">빅 네이트</h3>
+                    <p class="playat font16 color1">01/20 [토,일] 오후 09:00 방송</p>
+                    <p class="sort font13 color2">애니메이션</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- 배너 -->
+<section id="banner">
+    <div>
+        <a href=""></a>
+    </div>
+</section>
+
+<!-- 푸터 -->
+<section id="footer">
+    <div class="wrap">
+        <div class="upper">
+            <div class="top wrap flex">
+                <ul class="fnb flex">
+                    <li><a href="" class="font13">회사소개</a></li>
+                    <li><a href="" class="font13">광고/제휴문의</a></li>
+                    <li><a href="" class="font13">이용약관</a></li>
+                    <li><a href="" class="font13">개인정보 처리방침</a></li>
+                    <li><a href="" class="font13">청소년보호정책</a></li>
+                    <li><a href="" class="font13">법적고지</a></li>
+                    <li><a href="" class="font13">이메일무단수집거부</a></li>
+                    <li><a href="" class="font13">큐톤표</a></li>
+                    <li><a href="" class="font13">고객센터</a></li>
+                </ul>
+                <span class="flex">
+                    <select name="" id="">
+                        <option value="" class="font12"><a href="">브랜드 바로가기</a></option>
+                        <option value="" class="font12"><a href="">MNET</a></option>
+                        <option value="" class="font12"><a href="">MWAVE</a></option>
+                        <option value="" class="font12"><a href="">tvN</a></option>
+                        <option value="" class="font12"><a href="">tvN SPORTS</a></option>
+                        <option value="" class="font12"><a href="">tvN STORY</a></option>
+                        <option value="" class="font12"><a href="">tvN DRAMA</a></option>
+                        <option value="" class="font12"><a href="">tvN SHOW</a></option>
+                        <option value="" class="font12"><a href="">OCN</a></option>
+                        <option value="" class="font12"><a href="">중화TV</a></option>
+                        <option value="" class="font12"><a href="">UXN</a></option>
+                        <option value="" class="font12"><a href="">CATCHON</a></option>
+                        <option value="" class="font12"><a href="">Tooniverse</a></option>
+                    </select>
+                    <select name="" id="">
+                        <option value="" class="font12"><a href="">계열사 바로가기</a></option>
+                        <option value="" class="font12"><a href="">CJ 그룹</a></option>
+                        <option value="" class="font12"><a href="">CJ주식회사</a></option>
+                        <option value="" class="font12"><a href="">엔터테인먼트&미디어</a></option>
+                        <option value="" class="font12"><a href="">CJ ENM 엔터테인먼트부문</a></option>
+                        <option value="" class="font12"><a href="">TVING</a></option>
+                        <option value="" class="font12"><a href="">CJCGV</a></option>
+                        <option value="" class="font12"><a href="">식품&식품서비스</a></option>
+                        <option value="" class="font12"><a href="">CJ제일제당</a></option>
+                        <option value="" class="font12"><a href="">CJ푸드빌</a></option>
+                        <option value="" class="font12"><a href="">CJ프레시웨이</a></option>
+                        <option value="" class="font12"><a href="">생명공학</a></option>
+                        <option value="" class="font12"><a href="">CJ제일제당 BIO사업부문</a></option>
+                        <option value="" class="font12"><a href="">CJ Feed & Care</a></option>
+                        <option value="" class="font12"><a href="">물류&신유통</a></option>
+                        <option value="" class="font12"><a href="">CJ대한통운</a></option>
+                        <option value="" class="font12"><a href="">CJ대한통운 건설부문</a></option>
+                        <option value="" class="font12"><a href="">CJ올리브영</a></option>
+                        <option value="" class="font12"><a href="">CJ올리브네트웍스</a></option>
+                        <option value="" class="font12"><a href="">CJ ENM 커머스부문</a></option>
+                        <option value="" class="font12"><a href="">CJ텔레닉스</a></option>
+                    </select>
+                </span>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="bottom wrap">
+                <ul class="address">
+                    <li><a href="" class="font0">logo</a></li>
+                    <li>
+                        <address class="font13">
+                            시청자 상담실 (편성 문의 및 시청자 의견):
+                            <em>080-080-0780</em>
+                            <span class="block"></span>
+                            (주)씨제이이엔엠 대표이사:구창근,윤상현
+                            <span class="line noline"></span>
+                            <em class="border_bottom"><a href="">사업자정보확인</a></em>
+                            <span class="block"></span>
+                            본점:(06761)서울시 서초구 과천대로 870-13
+                            <span class="line noline"></span>
+                            사업장:(03926) 서울시 마포구 상암산로 66
+                            <span class="line"></span>
+                            사업자 등록번호:106-81-51510
+                            <span class="line"></span>
+                            개인정보 보호책임자:강봉관
+                            <span class="block"></span>
+                        </address>
+                    </li>
+                </ul>
+                <div class="ground">
+                    <span class="flex between">
+                        <p class="rights font13">
+                            @ CJ ENM. All Rights Reserved.
+                        </p>
+                        <ul class="sns flex">
+                            <li><a href="" class="font0">Instagram</a></li>
+                            <li><a href="" class="font0">Facebook</a></li>
+                            <li><a href="" class="font0">Youtube</a></li>
+                            <li><a href="" class="font0">kakao</a></li>
+                        </ul>
+                    </span> 
+                </div>
+           </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

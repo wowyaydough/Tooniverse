@@ -1,0 +1,233 @@
+@media screen and (max-width:959px) {
+  .wrap{
+  max-width: 959px !important;
+  padding: 0 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  }
+  
+  section#header .wrap > a{
+  scale: 55%;
+  width: 324px;
+  margin-left: -58px;
+  margin-top: -50px;
+  }
+  
+  section#header .wrap .right{
+  display: none;
+  }
+  
+  section#title{
+    
+  margin-top: -61px;
+  }
+  
+  section#title div a{
+  animation-name: title959;
+  animation-duration: 40s;
+  background-size: cover;
+  max-width: 959px;
+  height: 1534px;
+  }
+  
+  @keyframes title959{
+  0% {
+    background-image: url(../img/title21.jpg);
+  }
+  10% {
+    background-image: url(../img/title22.jpg);
+  }
+  20% {
+    background-image: url(../img/title23.jpg);
+  }
+  30% {
+    background-image: url(../img/title24.jpg);
+  }
+  40% {
+    background-image: url(../img/title25.jpg);
+  }
+  50% {
+    background-image: url(../img/title26.jpg);
+  }
+  60% {
+    background-image: url(../img/title27.jpg);
+  }
+  70% {
+    background-image: url(../img/title28.jpg);
+  }
+  80% {
+    background-image: url(../img/title29.jpg);
+  }
+  90% {
+    background-image: url(../img/title30.jpg);
+  }
+  100% {
+    background-image: url(../img/title6.jpg);
+  }
+  }
+  
+  section#channel .wrap hgroup h2{
+  padding-bottom: 7px;
+  }
+  
+  section#channel .wrap hgroup h3::after {
+  left: 140px;
+  top: 28px;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  }
+  
+  section#channel .wrap div.grid{
+  padding-bottom: 40px;
+  grid-template-columns: 4% auto;
+  }
+  
+  section#channel .wrap div.grid a.logo{
+  height: 90px;
+  background-size: 86%;
+  width: 70px;
+  }
+  
+  section#channel .wrap div.grid a.logo::after{
+  background-size: 65%;
+  transform: translateX(48px) translateY(6px);
+  }
+    
+  section#channel .wrap div.grid ul{
+  grid-template-columns: 18% 14% 14% auto auto;
+  column-gap: 6px;
+  }
+  section#channel .wrap div.grid ul li{
+  height: 70px;
+  }
+  
+  section#channel .wrap div.grid ul li a > span{
+  padding: 0;
+  }
+  section#channel .wrap div.grid ul li a span p.time{
+  line-height: 20px;
+  padding-right: 16px;
+  }
+  
+  section#channel .wrap div.grid ul li a span p.live{
+  font-size: 10px;
+  padding: 6px;
+  padding-top: 2px;
+  border-radius: 3px;
+  padding-left: 14px;
+  left: -19px;
+  top: -12px;
+  }
+  
+  section#channel .wrap div.grid ul li a span p.live::before{
+  width: 4px;
+  height: 4px;
+  transform: translatex(-8px) translatey(8px);
+  }
+  
+  section#channel .wrap div.grid ul li a span p.live::after{
+    
+  bottom: -80px;
+  right: -178px;
+  }
+  section#channel .wrap div.grid ul li a span h5.title{
+  line-height: 25px;
+  }
+  section#channel .wrap div.grid ul li a span h6.detail{
+  line-height: 24px;
+  }
+  
+/*  new  */
+  section#new .wrap h2{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  }
+  
+  section#new .wrap ul li{
+  background-color: white;
+  }
+  section#new .wrap ul li a h3{
+  margin-left: 10px;
+  }
+  section#new .wrap ul li a p.playat{
+  margin-left: 10px;
+  line-height: 32px;
+  padding-bottom: 25px;
+  }
+  section#new .wrap ul li a p.sort{
+  padding: 4px 8px;
+  transform: translatex(10px) translatey(-36px);
+  }
+  
+/* banner   */
+  section#banner div a{
+  background-image: url(../img/footer_res.jpg);
+  width: 100%;
+  height: 369px;
+  background-size: contain;
+  display: flex;
+  flex-direction: row-reverse;
+  transform: translatey(-119px);
+  background-position: bottom center;
+  }
+  section#banner div a::after{
+    content:"";
+    background-image: url(../img/banner_res.png);
+    width: 100%;
+    height: 160px;
+    display: block;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: -161px;
+  }
+  
+/*  footer  */
+  section#footer > .wrap{
+  padding: 0;
+  }
+  
+  section#footer .upper{
+  padding: 15px;
+  }
+  
+  section#footer .top{
+  display: initial;
+  }
+
+  section#footer .wrap .top ul.fnb{  
+  margin-left: 20px;
+  margin-bottom: 33px;
+  display: flex;
+  justify-content: space-between;
+  }
+  section#footer .wrap .top ul.fnb a.font13{
+  font-size: 14px;
+  }
+  section#footer .wrap .top span{
+  margin-left: 20px;
+  }
+  
+  section#footer .wrap .top span select{
+  width: calc(100% / 2);
+  }
+  
+  section#footer .wrap .bottom div.ground span{
+  display: initial;
+  }
+  section#footer .address li address span.noline{
+    
+  display: block;
+  opacity: 0;
+  margin-top: -12px;
+  }
+  section#footer .ground p{
+  line-height: 50px;
+  font-size: 14px;
+  }
+  
+  section#footer .wrap .bottom ul.address li:first-child a.font0{
+  background-size: 67%;
+  }
+}
